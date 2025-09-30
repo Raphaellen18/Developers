@@ -36,10 +36,11 @@ h2 {
 }
 
 .card:hover {
-  background: #333;
+  background: #3030302d;
 }
 
 .card img {
+  border: 2px solid #111111;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -63,16 +64,17 @@ h2 {
 }
 
 .modal-content {
-  background: #1c1c1c;
+  background: #f4f7f9;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
   max-width: 400px;
   width: 90%;
-  color: #fff;
+  color: #333333;
 }
 
 .modal-content img {
+  border: #444 solid 2px;
   width: 120px;
   height: 120px;
   border-radius: 50%;
@@ -102,5 +104,5 @@ h2 {
 }
 
 .links a:hover {
-  background: #666;
+  background: #444;
 }
