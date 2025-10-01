@@ -107,6 +107,19 @@ h2 {
   background: #444;
 }
 
+.qrcode {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+
+.qrcode img {
+  width: 120px;
+  height: auto;
+}
+
+
 @media (max-width: 600px) {
   .card {
     flex-direction: column;
